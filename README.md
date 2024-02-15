@@ -48,17 +48,20 @@ Split and merge HSV Image
 
 ### i) Read and display the image
 ```Python
-    import cv2
-    image=cv2.imread('space1.jpg',1)
-    image=cv2.resize(image,(400,300))
-    cv2.imshow('Abishek Xavier A',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+import cv2
+image=cv2.imread('japan.jpg',1)
+image=cv2.resize(image,(1290,720))
+cv2.imshow('Janarthanan V K',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ``` 
   </td>
   <td>
 
 ### OUTPUT:
+
+![Screenshot 2024-02-15 093638](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/195b4681-c9b1-46f5-9f46-d9a591dab788)
+
 
  
   </td>
