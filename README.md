@@ -99,6 +99,8 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
+![Screenshot 2024-02-15 205108](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/d2318219-e727-4bf8-9c21-59bc74ae2478)
+
   </td>
   </tr>
   <tr>
