@@ -49,7 +49,7 @@ Split and merge HSV Image
 ### i) Read and display the image
 ```Python
 import cv2
-image=cv2.imread(r'C:\Users\SEC\OneDrive\Documents\Digital Image Processing\japan.jpg')
+image=cv2.imread('japan.jpg')
 image=cv2.resize(image,(1290,720))
 cv2.imshow('Janarthanan V K',image)
 cv2.waitKey(0)
@@ -73,7 +73,7 @@ cv2.destroyAllWindows()
 ### ii) Write the image
 ```Python
     import cv2
-    image=cv2.imread(r'C:\Users\SEC\OneDrive\Documents\Digital Image Processing\japan.jpg')
+    image=cv2.imread('japan.jpg')
     cv2.imwrite('d.jpg',image)
 ```
   </td>
