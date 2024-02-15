@@ -162,12 +162,16 @@ import cv2
 img = cv2.imread('space1.jpg',1)
 img = cv2.resize(img,(720,720))
 cv2.imshow('Original Image',img)
+
 hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('BGR2HSV',hsv1)
+
 hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 cv2.imshow('RGB2HSV',hsv2)
+
 gray1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 cv2.imshow('BGR2GRAY',gray1)
+
 gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
