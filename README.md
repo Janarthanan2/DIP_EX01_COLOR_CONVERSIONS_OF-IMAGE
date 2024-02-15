@@ -35,7 +35,7 @@ Split and Merge RGB Image
 ### Step10:
 Split and merge HSV Image
 
-### Program:
+## Program:
 
 **Developed By:** JANARTHANAN V K <br>
 **Register Number:** 212222230051
@@ -49,7 +49,7 @@ Split and merge HSV Image
 ### i) Read and display the image
 ```Python
 import cv2
-image=cv2.imread('japan.jpg',1)
+image=cv2.imread(r'C:\Users\SEC\OneDrive\Documents\Digital Image Processing\japan.jpg')
 image=cv2.resize(image,(1290,720))
 cv2.imshow('Janarthanan V K',image)
 cv2.waitKey(0)
@@ -60,7 +60,7 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
-![Screenshot 2024-02-15 093638](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/195b4681-c9b1-46f5-9f46-d9a591dab788)
+![Screenshot 2024-02-15 203203](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/88f86204-cb22-4b72-94a5-af6a0aaff513)
 
 
  
@@ -73,13 +73,14 @@ cv2.destroyAllWindows()
 ### ii) Write the image
 ```Python
     import cv2
-    image=cv2.imread('japan.jpg',0)
+    image=cv2.imread(r'C:\Users\SEC\OneDrive\Documents\Digital Image Processing\japan.jpg')
     cv2.imwrite('d.jpg',image)
 ```
   </td>
   <td>
 
 ### OUTPUT:
+![Screenshot 2024-02-15 204036](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/9e2f28bf-b688-471a-97b5-849ffea08705)
 
 
   </td>
