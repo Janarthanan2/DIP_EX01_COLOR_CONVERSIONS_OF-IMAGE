@@ -186,12 +186,81 @@ cv2.destroyAllWindows()
 <img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/063dfd7b-ccee-49a6-8a79-e30930440fd9" width=350 height=350>
 <img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/895e84b1-9980-4291-baa1-c033331ba70f" width=350 height=350>
 
+### vii) HSV to RGB and BGR
+```python
+import cv2
+image = cv2.imread('japan.jpg')
+image = cv2.resize(image,(720,720))
+rgb_image = cv2.cvtColor(image, cv2.COLOR_HSV2RGB)
+bgr_image = cv2.cvtColor(rgb_image, cv2.COLOR_RGB2BGR)
+cv2.imshow('HSV Image', image)
+cv2.imshow('RGB Image', rgb_image)
+cv2.imshow('BGR Image', bgr_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/dbb2eb9e-9064-47ec-8916-85353833882a" height=350 width="350">
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/8a87870b-89e5-40bf-a359-5b02a91c058e" height=350 width="350">
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/e7e8159d-64f0-4e73-b392-a11b7bfab276" height=350 width="350">
+
+### viii) RGB and BGR to YCrCb
+```python
+import cv2
+image = cv2.imread('japan.jpg')
+image = cv2.resize(image,(720,720))
+ycrcb_image = cv2.cvtColor(image, cv2.COLOR_RGB2YCrCb)
+cv2.imshow('YCrCb Image', ycrcb_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+### OUTPUT:
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/da573c17-ac31-464d-bec3-eb50412faf1a" height=350 width="350">
+
+### ix) Split and merge RGB Image
+```python
+import cv2
+image = cv2.imread('japan.jpg')
+image=cv2.resize(image,(720,720))
+blue, green, red = cv2.split(image)
+merged_image = cv2.merge([blue, green, red])
+cv2.imshow('Original Image', image)
+cv2.imshow('Merged Image', merged_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/cef3bddb-3734-4177-a9cd-ccb40a9c2b46" height=350 width="350">
+
+### x) Split and merge HSV Image
+```python
+import cv2
+image = cv2.imread('japan.jpg')
+image = cv2.resize(image,(720,720))
+hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+hue, saturation, value = cv2.split(hsv_image)
+merged_hsv_image = cv2.merge([hue, saturation, value])
+merged_bgr_image = cv2.cvtColor(merged_hsv_image, cv2.COLOR_HSV2RGB)
+cv2.imshow('Original Image', image)
+cv2.imshow('Merged BGR Image', merged_bgr_image)
+cv2.imshow('Original2 Image', merged_hsv_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/c87f8785-357e-48a6-8f5c-f13f416695c4" height=350 width="350">
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f8168b4d-6767-4ec2-b43d-1fb446a0cb3a" height=350 width="350">
+
+
+
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
-
-
-
-
 
 
 
