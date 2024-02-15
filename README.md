@@ -30,8 +30,6 @@ Anaconda - Python 3.7
 **Developed By:** JANARTHANAN V K <br>
 **Register Number:** 212222230051
 
-## Output:
-
 <table>
   <tr>
     <td width=50%>
