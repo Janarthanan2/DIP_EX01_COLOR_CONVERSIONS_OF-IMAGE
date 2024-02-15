@@ -174,12 +174,12 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ### OUTPUT:
-![Screenshot 2024-02-15 211116](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/64d99c6e-8d82-4245-87dc-6c5dd9392374)
-![Screenshot 2024-02-15 211224](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f49590eb-8ab2-40ec-a5cb-b8fb4fc99b9d)
-![Screenshot 2024-02-15 211259](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f7800fa9-8396-4cf5-b5df-fedf8e129141)
-![Screenshot 2024-02-15 211342](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/063dfd7b-ccee-49a6-8a79-e30930440fd9)
-![Screenshot 2024-02-15 211413](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/895e84b1-9980-4291-baa1-c033331ba70f)
 
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/64d99c6e-8d82-4245-87dc-6c5dd9392374" width=250 height=250>
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f49590eb-8ab2-40ec-a5cb-b8fb4fc99b9d" width=250 height=250>
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f7800fa9-8396-4cf5-b5df-fedf8e129141" width=250 height=250>
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/063dfd7b-ccee-49a6-8a79-e30930440fd9" width=250 height=250>
+<img src="https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/895e84b1-9980-4291-baa1-c033331ba70f" width=250 height=250>
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
