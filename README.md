@@ -70,10 +70,10 @@ cv2.destroyAllWindows()
    <tr>
     <td width=50%>
 
-### ii)Write the image
+### ii) Write the image
 ```Python
     import cv2
-    image=cv2.imread('space1.jpg',0)
+    image=cv2.imread('japan.jpg',0)
     cv2.imwrite('d.jpg',image)
 ```
   </td>
@@ -87,10 +87,10 @@ cv2.destroyAllWindows()
   <tr>
     <td width=50%>
 
-### iii)Shape of the Image
+### iii) Shape of the Image
 ```Python
     import cv2
-    image=cv2.imread('space1.jpg',1)
+    image=cv2.imread('japan.jpg',1)
     print(image.shape)
 ```
   </td>
@@ -103,11 +103,11 @@ cv2.destroyAllWindows()
   <tr>
     <td>
       
-### iv)Access rows and columns
+### iv) Access rows and columns
 ```Python
     import random
     import cv2
-    image=cv2.imread('space1.jpg',1)
+    image=cv2.imread('japan.jpg',1)
     image=cv2.resize(image,(400,400))
     for i in range (150,200):
       for j in range(image.shape[1]):
@@ -129,11 +129,11 @@ cv2.destroyAllWindows()
   <tr>
     <td width=50%>
       
-### v)Cut and paste portion of image
+### v) Cut and paste portion of image
 
  ```Python
     import cv2
-    image=cv2.imread('space1.jpg',1)
+    image=cv2.imread('japan.jpg',1)
     image=cv2.resize(image,(400,400))
     tag =image[130:200,110:190]
     image[110:180,120:200] = tag
