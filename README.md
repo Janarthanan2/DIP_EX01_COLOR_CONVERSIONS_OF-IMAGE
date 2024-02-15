@@ -35,56 +35,117 @@ Split and Merge RGB Image
 ### Step10:
 Split and merge HSV Image
 
-##### Program:
-### Developed By:
-### Register Number: 
+### Program:
 
+**Developed By:** JANARTHANAN V K <br>
+**Register Number:** 212222230051
 
 ## Output:
 
-### i) Read and display the image
+<table>
+  <tr>
+    <td width=50%>
 
-<br>
-<br>
+### i) Read and display the image
+```Python
+    import cv2
+    image=cv2.imread('space1.jpg',1)
+    image=cv2.resize(image,(400,300))
+    cv2.imshow('Abishek Xavier A',image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+``` 
+  </td>
+  <td>
+
+### OUTPUT:
+
+ 
+  </td>
+  </tr>
+
+   <tr>
+    <td width=50%>
 
 ### ii)Write the image
+```Python
+    import cv2
+    image=cv2.imread('space1.jpg',0)
+    cv2.imwrite('d.jpg',image)
+```
+  </td>
+  <td>
 
-<br>
-<br>
+### OUTPUT:
+
+
+  </td>
+  </tr>
+  <tr>
+    <td width=50%>
 
 ### iii)Shape of the Image
+```Python
+    import cv2
+    image=cv2.imread('space1.jpg',1)
+    print(image.shape)
+```
+  </td>
+  <td>
 
-<br>
-<br>
+### OUTPUT:
 
+  </td>
+  </tr>
+  <tr>
+    <td>
+      
 ### iv)Access rows and columns
-<br>
-<br>
+```Python
+    import random
+    import cv2
+    image=cv2.imread('space1.jpg',1)
+    image=cv2.resize(image,(400,400))
+    for i in range (150,200):
+      for j in range(image.shape[1]):
+          image[i][j]=[random.randint(0,255),
+                       random.randint(0,255),
+                       random.randint(0,255)] 
+    cv2.imshow('part image',image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+```
+  </td>
+  <td width="50%">
 
+### OUTPUT:
+
+
+  </td>
+  </tr>
+  <tr>
+    <td width=50%>
+      
 ### v)Cut and paste portion of image
-<br>
-<br>
 
-### vi) BGR and RGB to HSV and GRAY
-<br>
-<br>
+ ```Python
+    import cv2
+    image=cv2.imread('space1.jpg',1)
+    image=cv2.resize(image,(400,400))
+    tag =image[130:200,110:190]
+    image[110:180,120:200] = tag
+    cv2.imshow('partimage1',image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+```
+  </td>
+  <td>
+    
+### OUTPUT:
 
-### vii) HSV to RGB and BGR
-<br>
-<br>
-
-### viii) RGB and BGR to YCrCb
-<br>
-<br>
-
-### ix) Split and merge RGB Image
-<br>
-<br>
-
-### x) Split and merge HSV Image
-<br>
-<br>
-
+  </td>
+  </tr>
+</table>
 
 
 
