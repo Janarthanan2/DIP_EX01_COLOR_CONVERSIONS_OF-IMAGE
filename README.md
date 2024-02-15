@@ -147,7 +147,7 @@ cv2.destroyAllWindows()
 ```
   </td>
   <td>
-    
+
 ### OUTPUT:
 ![Screenshot 2024-02-15 210648](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/40ec4acf-1799-4e8e-a95a-132775b8573f)
 
@@ -155,6 +155,30 @@ cv2.destroyAllWindows()
   </tr>
 </table>
 
+### vi) BGR and RGB to HSV and GRAY
+
+```python
+import cv2
+img = cv2.imread('space1.jpg',1)
+img = cv2.resize(img,(720,720))
+cv2.imshow('Original Image',img)
+hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+cv2.imshow('BGR2HSV',hsv1)
+hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
+cv2.imshow('RGB2HSV',hsv2)
+gray1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+cv2.imshow('BGR2GRAY',gray1)
+gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
+cv2.imshow('RGB2GRAY',gray2)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+### OUTPUT:
+![Screenshot 2024-02-15 211116](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/64d99c6e-8d82-4245-87dc-6c5dd9392374)
+![Screenshot 2024-02-15 211224](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f49590eb-8ab2-40ec-a5cb-b8fb4fc99b9d)
+![Screenshot 2024-02-15 211259](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/f7800fa9-8396-4cf5-b5df-fedf8e129141)
+![Screenshot 2024-02-15 211342](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/063dfd7b-ccee-49a6-8a79-e30930440fd9)
+![Screenshot 2024-02-15 211413](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/895e84b1-9980-4291-baa1-c033331ba70f)
 
 
 ## Result:
