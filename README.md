@@ -126,6 +126,7 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
+![Screenshot 2024-02-15 205437](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/80aeca6f-9881-427a-9c19-3027d101cc0a)
 
   </td>
   </tr>
@@ -148,6 +149,7 @@ cv2.destroyAllWindows()
   <td>
     
 ### OUTPUT:
+![Screenshot 2024-02-15 210648](https://github.com/Janarthanan2/DIP_EX01_COLOR_CONVERSIONS_OF-IMAGE/assets/119393515/40ec4acf-1799-4e8e-a95a-132775b8573f)
 
   </td>
   </tr>
